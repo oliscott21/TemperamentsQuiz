@@ -1,0 +1,77 @@
+<!--
+    This file holds all strings used in app
+-->
+
+<resources>
+    <string name="app_name">Temperaments Quiz</string>
+    <string name="welcome_mes">Welcome to the four temperaments quiz</string>
+    <string name="begin_button">Begin Quiz</string>
+    <string name="sa">Strongly Agree</string>
+    <string name="pa">Partially Agree</string>
+    <string name="n">Neutral</string>
+    <string name="pd">Partially disagree</string>
+    <string name="sd">Strongly Disagree</string>
+    <string name="next_question">Next Question</string>
+    <string name="quiz_sum">Quiz Summary</string>
+    <string name="temp">Your Temperament:</string>
+    <string name="ch">\tBeing open, friendly, confident, outgoing, optimistic, tough-minded, task
+        oriented, perfectionist with a good mind for envisioning new projects, and an extrovert
+        of a highly selective nature.\n\n\tHot-tempered, a people user, although everyone uses
+        people to some degree, the Choleric in \“carries the red flag\”. They think of themselves as
+        people motivators. They become easily frustrated in their attempts to \“motivate\” people.
+        They harbor anger and can be cruel and abusive.\n\n\tBeing open, optimistic, outgoing,
+        express a great deal of love and affection, and approach only select people for deep
+        relationships.\n\n\tExtremely self-centered (although they do not appear this way),
+        indirect behavior, reject people, reject the love and affections of people (they will
+        accept love and affection only according to their terms), are usually cruel to those who
+        reject their manipulation for love and affection.\n\n\tTough-willed, a good leader, capable
+        of making intuitive decisions, capable of taking on responsibilities, usually done in an
+        efficient, well-disciplined military fashion. They possess the will power to carry through
+        to completion.\n\n\tAnger, cruelty, capable of undertaking any behavior to keep control.
+        They associate with weak people and then resent their weaknesses. To them, the end
+        justifies the means; so they are capable of very poor behavior. They are highly susceptible
+        to burn out.
+    </string>
+    <string name="sg">\tFriendly, outgoing, inspiring to others, relationship oriented,
+        enthusiastic, warm, optimistic, ability to see the bright side of life and the good in other
+        people. They genuinely like people, are rarely found alone, and freely interact with
+        people.\n\n\tTalkative, always the center of the conversation, apt to take on behavior
+        and morals of the people around them, impulsive, undisciplined, rude, prone to exaggerate,
+        need to appear successful (even to the point of exaggeration), will ignore responsibilities
+        in order to be with people.\n\n\tLacking persistence and weak-willed, Solicitous, caring
+        person who will do things for other people, almost to the point of servitude. A very
+        charming, gracious person. Takes on responsibilities and makes decisions very well (to a
+        point). \n\n\tAble to express and receive large amounts of love and affection. They are
+        warm and easy to get to know and emotionally open.
+    </string>
+    <string name="me">\tIntrovert, loner, great thinker, genius-prone, very artistic and creative,
+        often found alone in thought, perfectionist, slow-paced, great understanding of tasks
+        and systems, a critical and challenging mind, and seeing both the pitfalls and the end
+        results of a project undertaken.\n\n\tExtremely moody, suffer from \“black\” depressions,
+        reject people, set standards neither they nor anyone else can meet, develop habits that are
+        very hard to break, have suicidal tendencies, low self-esteem and are pessimistic.\n\n\t
+        Good at decisions and responsibilities in known areas, very good leadership abilities.
+        They adhere to the rules and they need very little control over the lives and behavior of
+        others.\n\n\tRigid, inflexible, sensitive to failure, fear of the unknown, fear of failure,
+        apt to be a rebel and procrastinate.\n\n\tVery faithful, loyal friend and self-sacrificing.
+        Their feelings run deep and tender (even though they lack the ability to express these
+        feelings). They easily empathize with others and have the ability to make very deep
+        commitments.
+    </string>
+    <string name="ph">\tThe ability to perform tedious tasks, relate to both tasks and people,
+        calm easygoing, extremely efficient and perfectionist. The Phlegmatic can function quite
+        well in a hostile social setting. Nothing \“ruffles their feathers.\”\n\n\tUnwillingness to
+        become involved, tendency to be an observer rather than a participant, and use of a verbal
+        defense that often hurts others.\n\n\tThe tendency to be very practical, conservative,
+        peace-loving and a good peace maker / arbitrator.\n\n\tIndecisiveness, the tendency to
+        procrastinate, and being very difficult to motivate. They use verbal defenses that often
+        hurt others; it is used against anyone who tries to motivate or control them, particularly
+        Choleric\'s.\n\n\tWell balanced, easygoing, non-demanding, calm and realistic in demands for
+        love and affection.\n\n\tUnwillingness to become involved in deep relationships, tendency
+        to be an observer only, rarely self-sacrificing, unemotional and inexpressive. Verbal
+        defenses are used to protect low energy supply with regard to physical and sexual
+        involvement.
+    </string>
+    <string name="temp_des">Temperament Description:</string>
+    <string name="temp_scores">Temperament Scores:</string>
+</resources>

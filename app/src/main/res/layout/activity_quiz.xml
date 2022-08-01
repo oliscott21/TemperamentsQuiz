@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    This file entails the layout of the Quiz page. This includes text that will change, that acts as
+        the questions. A group of radio buttons, which will act as the user's answer. And a button
+        that will either change the text to a new question, or take the user to the summary page
+        if they answered the last question.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:paddingBottom="25dp"
+        android:textSize="12pt"
+        android:textColor="@color/red"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        >
+
+        <RadioButton
+            android:id="@+id/sa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sa"
+            android:textColor="@color/purp"
+            android:buttonTint="@color/red"
+            />
+
+        <RadioButton
+            android:id="@+id/pa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pa"
+            android:textColor="@color/purp"
+            android:buttonTint="@color/red"
+            />
+
+        <RadioButton
+            android:id="@+id/n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/n"
+            android:textColor="@color/purp"
+            android:buttonTint="@color/red"
+            />
+
+        <RadioButton
+            android:id="@+id/pd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pd"
+            android:textColor="@color/purp"
+            android:buttonTint="@color/red"
+            />
+
+        <RadioButton
+            android:id="@+id/sd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sd"
+            android:textColor="@color/purp"
+            android:buttonTint="@color/red"
+            />
+
+    </RadioGroup>
+    
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:text="@string/next_question"
+        android:layout_gravity="center"
+        android:onClick="changeText"
+        android:textColor="@color/bl"
+        android:backgroundTint="@color/red"
+        />
+
+</LinearLayout>

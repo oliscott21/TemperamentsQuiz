@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    This file entails the layout of the Welcome page, which simply displays the a welcome message
+        and a button which will start the quiz on a press.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_mes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:textColor="@color/red"
+        />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:text="@string/begin_button"
+        android:onClick="toQuiz"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/bl"
+        />
+
+
+</LinearLayout>
